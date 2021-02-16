@@ -1,0 +1,199 @@
+#container {		
+		margin: auto;
+		width: 80%;
+		min-width: 960px;
+		background-color: #EAEAEA;
+		color: #000000;
+		box-shadow: 0px 0px 3px 3px #808080;
+		font-family: "Comic Sans MS", Courier, Monospace;
+}
+#navleft {
+		text-align: center;
+		font-size: 25px;
+		float: left;
+		width: 195px;
+		margin-left: 3px; 
+}
+#navbottom {
+		font-size: 25px;
+		word-spacing: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+}
+.bubble {
+		background-color: #000000;
+		color: #EAEAEA;
+		border-radius: 25px;
+}
+.imgfloat { float: left;
+        margin-right: 10px;
+        border: 1px ridge #000000; 
+}
+.clearleft {
+		clear: left; 
+}
+.center {
+		display: block;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto; 
+		border: 1px ridge #000000; 
+}
+.left {
+		display: block;
+		margin-left: 100px; 
+		border: 1px ridge #000000;
+}
+.pleft	{
+		text-align: right;
+		margin-right: 160px; 
+}
+.service li {
+	border-bottom: 1px solid #CBCDCD;
+	font-size: 15pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header, nav, main, footer, aside {
+	display: block; 
+}
+* {	
+	box-sizing: border-box; 
+}
+body {
+	background-image: url(woodfencesection.jpg); 
+}
+header {
+	background-color: #FFFFFF;
+	background-image: url(whitewallplastersection1.jpg);
+	background-repeat: repeat-x;
+	background-position: center; 
+	border: 2px solid #CBCDCD;
+}
+h1 {
+	font-size: 6em;
+	font-weight: bold;
+	text-align: center;	
+}
+h2, h3 {
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center; 
+}
+h2 {
+	background-image: url(h2header.jpg);
+	background-position: center;
+	background-color: #CBCDCD;
+	border-radius: 15px;
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: .50em;
+	padding-bottom: .50em;
+	border: 3px solid #000000;
+}
+h3 {
+	font-size: 1.5em;
+	border-bottom: 2px solid #000000;
+}
+h4 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 10px;
+	border-bottom: 1.25px solid #CBCDCD;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold; 
+}
+h5 {
+	border-bottom: 1.25px solid #CBCDCD;
+	padding-bottom: 10px;
+}
+main	{
+	margin: 0px 260px 0px 200px;
+	padding: 1px 10px 20px 10px;
+	background-image: url(wsd.png);
+	background-repeat: repeat;
+	border-left: 1px solid #CBCDCD;
+	border-right: 1px solid #CBCDCD;
+	border-bottom: 1px solid #CBCDCD;
+}
+nav	{ 
+	letter-spacing: 0.1em;
+}
+nav ul { 
+	padding-left: 0px;
+	list-style-type: none; 
+}
+nav li { 
+	border-radius: 25px;
+	margin-bottom: 15px; 
+}
+ol {
+	list-style-type: decimal;
+}
+.olli {
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+}
+nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+	color: #000000;
+	font-weight: bold;
+	list-style-type: none; 
+	text-decoration: none;
+	border: 2px solid #000000; 
+}
+nav a:link { 
+	color: #000000; 
+	background-color: #CBCDCD;
+}
+nav a:hover { 
+	color: #EAEAEA;
+	background-color: #000000;
+}
+footer {
+	margin: 0px 260px 20px 200px;
+	padding-bottom: 20px;
+	font-size: 13px;
+	text-align: center; 
+}
+p {
+	text-indent: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+aside {
+	float: right;
+	width: 250px;
+}
+aside p {
+	text-indent: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+dt { 
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+dd 
+{
+	border-bottom: 1px solid #CBCDCD;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+img {
+	text-align: center; 
+}
